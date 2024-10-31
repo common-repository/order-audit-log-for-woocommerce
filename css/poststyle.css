@@ -1,0 +1,70 @@
+.ic_popup_mask{
+	display:none;
+	position:fixed;	
+	opacity:0.8;
+	background:#fff;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;	
+	z-index:9998;
+	clear:both;
+	cursor:pointer;
+	}
+	
+.ic_popup_box{
+	position:fixed;
+	z-index:9999;
+	color:#000;	
+	display:none;
+	background:#fff;
+	border:1px solid #CCC;
+	width:450px;
+	}
+
+.ic_popup_box .popup_content{
+	padding:15px;
+	padding-top:0;
+	}
+			
+.ic_popup_box  .popup_close{
+	/*background:url(../images/close_button.png) no-repeat center center;*/
+	cursor:pointer;
+	width:34px;
+	height:34px;			
+	z-index:3300;
+	position:absolute;
+	top:-15px;
+	right:-15px;
+	outline:none;
+	}
+	
+.ic_popup_box h4{
+	padding:5px;
+	color:#FFF; 
+	margin-top:0;
+	background:#77AEDB;
+	}
+
+.ic_popup_box .ic_button_block{
+	width:130px;
+	}
+	
+.ic_popup_box .ic_button{
+	background:#2489C5;
+	color:#fff;
+	padding:4px 18px 6px;
+	border:none;
+	border-radius:15px;
+	cursor:pointer;
+	margin:8px 0 10px 0px;
+	font-weight:600;
+	}
+	
+.ic_popup_box .ic_button:hover{
+	background:#3DA0DB;
+	}
+
+.right_align{ text-align:right;}
+
+
